@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  devise-change:
+    image: "demo1"
+    ports:
+     - "8000:8000"
+
+  montant-change:
+    image: "demo2"
+    ports:
+     - "8020:8020"
